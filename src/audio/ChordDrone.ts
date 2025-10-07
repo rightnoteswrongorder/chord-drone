@@ -111,7 +111,7 @@ export class ChordDrone {
     const notes = intervals.map(s => base + s);
     const freqs = notes.map(m => midiToFreq(m));
 
-    freqs.forEach((f, i) => {
+    freqs.forEach((f) => {
       const osc = ctx.createOscillator(); const g = ctx.createGain();
       osc.type = "sawtooth"; osc.frequency.value = f;
       g.gain.value = 0;

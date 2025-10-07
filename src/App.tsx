@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 520, margin: "0 auto", padding: 16 }}>
-      <h1 style={{ marginTop: 0 }}>Chord Drone (Minimal)</h1>
+      <h1 style={{ marginTop: 0 }}>Chord Drone</h1>
 
       <div style={{ display:"grid", gap: 12, gridTemplateColumns:"1fr 1fr" }}>
         <label>Root<br/>
@@ -49,7 +49,7 @@ export default function App() {
         <button onClick={stop}>Stop</button>
       </div>
 
-      <p style={{opacity:0.65, marginTop:16}}>Tap Enable Audio once on mobile, then Start/Stop.</p>
+      <p style={{opacity:0.65, marginTop:16}}>Configured for GitHub Pages at <code>/chord-drone/</code>.</p>
     </div>
   );
 }
